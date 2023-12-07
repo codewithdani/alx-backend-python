@@ -4,7 +4,7 @@
 from typing import Union, Any, Sequence
 
 
-def safe_first_element(lst: List[Union[Any, None]]) -> Sequence[Any]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     This function retrieves the first element of a sequence,
     safely handling empty list.

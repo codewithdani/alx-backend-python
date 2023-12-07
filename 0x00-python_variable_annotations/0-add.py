@@ -5,7 +5,7 @@
 
 def add(a: float, b: float) -> float:
     """
-    This function takes two floats as arguments 
+    This function takes two floats as arguments
     and returns their sum.
     """
     return a + b

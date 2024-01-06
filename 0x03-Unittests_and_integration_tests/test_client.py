@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Module documentation here."""
-
 import unittest
 from typing import Dict
 from unittest.mock import patch, MagicMock

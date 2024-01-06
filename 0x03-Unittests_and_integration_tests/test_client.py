@@ -11,8 +11,8 @@ from requests import HTTPError
 class TestGithubOrgClient(unittest.TestCase):
     """Tests the `GithubOrgClient` class."""
     @parameterized.expand([
-        ("google",),
-        ("abc",),
+        ("google", {'login': "google"}),
+        ("abc", {'login': "abc"}),
     ])
     @patch("client.get_json")
     def test_org(self, org: str, resp: Dict, mocked_fxn: MagicMock) -> None:

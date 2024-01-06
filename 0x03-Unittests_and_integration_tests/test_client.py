@@ -3,7 +3,7 @@
 
 import unittest
 from typing import Dict
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch, MagicMock, Mock
 from parameterized import parameterized
 from client import GithubOrgClient
 

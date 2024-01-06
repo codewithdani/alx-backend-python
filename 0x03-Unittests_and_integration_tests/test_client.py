@@ -6,6 +6,7 @@ from typing import Dict
 from unittest.mock import patch, MagicMock
 from parameterized import parameterized
 from client import GithubOrgClient
+from requests import HTTPError
 
 
 class TestGithubOrgClient(unittest.TestCase):

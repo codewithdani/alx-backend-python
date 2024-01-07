@@ -2,7 +2,7 @@
 """Module documentation here."""
 import unittest
 from typing import Dict
-from unittest.mock import patch, MagicMock, PropertyMock
+from unittest.mock import patch, MagicMock, PropertyMock, Mock
 from parameterized import parameterized, parameterized_class
 from client import GithubOrgClient
 from requests import HTTPError
